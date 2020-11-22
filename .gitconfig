@@ -18,6 +18,7 @@
 [mergetool]
   prompt = false
   keepBackup = false
+# tortoisegit may not be installable at work
 [difftool "tortoisediff"]
   cmd = \""c:/Program Files/TortoiseGIT/bin/TortoiseGitMerge.exe"\" -mine "$REMOTE" -base "$LOCAL"
 [mergetool "tortoisemerge"]
