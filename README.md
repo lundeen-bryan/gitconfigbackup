@@ -13,7 +13,16 @@ Backup of my gitconfig file
 #### Installation
 
 In the $HOME folder add a file called .gitbackup.
+In that folder put your .gitconfig file
+In the parent folder under $HOME make a file called .gitconfig
+In that folder point to the file with the following:
 
+````html
+[include]
+    path = ~/.gitbackup/.gitconfig
+````
+
+---
 
 [Back To The Top](#mygitbackup)
 
